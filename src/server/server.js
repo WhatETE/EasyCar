@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 const port = 3000;
 const saltRounds = 10;
-const secretKey = 'SCUT-CCF-2021';
+const secretKey = 'XXXXXX';
 
 
 const db = mysql.createConnection({ // 数据库连接
